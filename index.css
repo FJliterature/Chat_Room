@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#message-container {
+    width: 80%;
+    max-width: 1000px;
+}
+
+#message-container div {
+    background-color: #9ee4e0;
+    padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+    background-color: rgb(242, 213, 133);
+}
+
+#send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    max-width: 800px;
+    max-height: 500px;
+    width: 80%;
+    height: 10%;
+    display: flex;
+}
+
+#send-button {
+    border: 3px solid purple;
+}
+
+#send-button:hover {
+    border: 3px solid green;
+}
+
+#message-input {
+    flex-grow: 1;
+    border: 3px solid black;
+}
